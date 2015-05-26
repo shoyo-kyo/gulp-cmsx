@@ -1,0 +1,61 @@
+{
+  "name": "gulp-cmsx",
+  "version": "1.0.0",
+  "description": "'Coffee-smx module for GulpJs'",
+  "author": {
+    "name": "Shoyo.kyo",
+    "email": "kangsungyang@gmail.com",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shoyo-kyo/gulp-cmsx.git"
+  },
+  "keywords": [
+    "cmsx",
+    "coffee",
+    "coffee-script",
+    "coffeescript",
+    "gulp",
+    "gulpfriendly",
+    "gulpplugin",
+    "jsx",
+    "react"
+  ],
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/mtscout6/gulp-cjsx/issues"
+  },
+  "homepage": "https://github.com/mtscout6/gulp-cjsx",
+  "dependencies": {
+    "cmsx": "~0.2.0",
+    "gulp": "^3.8.11",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-util": "^3.0.4",
+    "merge": "^1.2.0",
+    "through2": "^1.1.1",
+    "vinyl-sourcemaps-apply": "^0.1.4"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.11",
+    "lodash": "^3.6.0",
+    "mocha": "^2.2.1",
+    "mocha-lcov-reporter": "0.0.2",
+    "should": "^5.2.0"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "gulp-cjsx@3.0.0",
+  "dist": {
+    "shasum": "7fbce4d64cf36cb1529b8c093640f44d91a4b1b4"
+  },
+  "_from": "gulp-cmsx@",
+  "_resolved": ""
+}
