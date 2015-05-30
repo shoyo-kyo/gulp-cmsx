@@ -32,7 +32,7 @@ module.exports = function(opt) {
     }, opt);
 
     try {
-      data = cmsx.compile(str, options);
+      data = cmsx(str, options);
     } catch (err) {
       return callback(error(err))
     }
